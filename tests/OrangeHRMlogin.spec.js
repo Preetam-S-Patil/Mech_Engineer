@@ -8,6 +8,8 @@ test("login", async({page})=>{
     await page.locator("//button[normalize-space()='Login']").click();
 
     await expect(page.locator("//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[1]/a/span")).toBeVisible();
-
+////git 
     await page.waitForTimeout(5000);
 })
+
+/////new line added
